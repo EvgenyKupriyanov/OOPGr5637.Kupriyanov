@@ -8,7 +8,7 @@ public class TaxInspector implements iActorBehaviour {
     private boolean isMakeOrder;
     private boolean isReturnOrder;
     private boolean isTakeMoney;
-    private static int typeClient = 1;
+    // private static int typeClient = 1;
 
     public TaxInspector() {
         this.name = "Tax Audit";

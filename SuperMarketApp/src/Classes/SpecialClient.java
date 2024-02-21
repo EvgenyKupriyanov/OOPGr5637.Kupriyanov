@@ -71,6 +71,6 @@ public class SpecialClient extends Actor {
 
     @Override
     public int getTypeClient() {
-        return 0;
+        return typeClient;
     }
 }

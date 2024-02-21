@@ -8,7 +8,7 @@ public class PromotionClient extends Actor {
     private static int countIdPromo = 1;
 
     public int getTypeClient() {
-        return 1;
+        return typeClient;
     }
 
     public PromotionClient(String name, int idPromo, String namePromo) {

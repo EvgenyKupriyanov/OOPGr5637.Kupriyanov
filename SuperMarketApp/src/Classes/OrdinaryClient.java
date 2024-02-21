@@ -69,6 +69,6 @@ public class OrdinaryClient extends Actor {
 
     @Override
     public int getTypeClient() {
-        return 0;
+        return typeClient;
     }
 }
